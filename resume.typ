@@ -47,8 +47,7 @@
   dates: dates-helper(start-date: "Aug 2023", end-date: "May 2025"),
   degree: "Diploma of College Studies, Computer Science & Mathematics",
 )
-- Global R score: 32.5 | Honour Roll Fall 2023, Winter 2024
-- Relevant Coursework: Calculus I, Calculus II, Linear Algebra, Mechanics, General Chemistry, Waves_,_ Optics and Modern Physics, Introduction to Programming, Data Structure and Object Oriented Programming, Program Development in a Graphical Environment
+- Global R score: 32.5 | Honour Roll: Fall 2023, Winter 2024, Fall 2024
 
 == Skills
 - *Programming Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
@@ -69,6 +68,30 @@
 - Maintained and contributed to multiple open-source software projects.
 
 #experience(
+  title: "Co-Founder & Translation Team Leader",
+  location: "Remote",
+  company: "FOSScope",
+  dates: dates-helper(start-date: "Mar 2024", end-date: "Present"),
+  homepage: "fosscope.org",
+  github: "FOSScope",
+)
+- Built and maintained the workflow automation tool used by contributors and maintainers in Rust.
+- Built and maintained the website used for hosting contents.
+- Created and maintained the content contribution guideline and other work procedures.
+- Communicated with high-quality FLOSS-related article authors and publishers to get translation permissions.
+- Led the translation team to ensure the quality of translated texts and establish a positive community environment.
+- Translated articles from English to Chinese.
+- Proofread other contributors' articles and translations.
+
+#experience(
+  title: "Teaching Assistant, Data Structures and Object Oriented Programming",
+  location: "Montreal, Quebec, Canada",
+  company: "Vanier College",
+  dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
+)
+- Graded students' assignments and evaluations.
+
+#experience(
   title: "Sub-Captain, Programming Competition Subteam",
   location: "Montreal, Quebec, Canada",
   company: "Vanier Robotics Team, Vanier College",
@@ -78,28 +101,12 @@
 - Prepared the practice problems and solutions.
 
 #experience(
-  title: "Co-Founder & Translation Team Leader",
-  location: "Remote",
-  company: "FOSScope",
-  dates: dates-helper(start-date: "Mar 2024", end-date: "Present"),
-  homepage: "fosscope.org",
-  github: "FOSScope",
-)
-- Built and maintained the FOSScope toolkit used by FOSScope contributors and maintainers in Rust\ using AI powered tools.
-- Built and maintained the website used for hosting contents.
-- Created and maintained the content contribution guideline and other work procedures.
-- Communicated with high-quality FLOSS-related article authors and publishers to get translation permissions.
-- Led the translation team to ensure the quality of translated texts and establish a positive community environment.
-- Translated articles from English to Chinese.
-- Proofread other contributors' articles and translations.
-
-#experience(
   title: "Tutor, Math & Science",
   location: "Montreal, Quebec, Canada",
   company: "Tutoring & Academic Success Centre, Vanier College",
   dates: dates-helper(start-date: "Feb 2024", end-date: "Present"),
 )
-- Tutored Calculus I, Calculus II, Mechanics, and Java-based Computer Science courses.
+- Tutored Math, Physics, and Java-based Computer Science courses.
 - Created meaningful study plans for students to achieve their goal.
 - Designed creative questions for students to learn key concepts.
 
@@ -131,6 +138,7 @@
   github: "iXORTech/Typstify",
 )
 - Develop the application, a Typst editor for iPadOS, using Swift, SwiftUI, and Rust, bridged by #link("https://github.com/chinedufn/swift-bridge")[chinedufn/swift-bridge].
+- Contribute to various open-source dependencies of the project.
 
 #project(
   name: "ungoogled-chromium-macos",
@@ -177,9 +185,8 @@
   dates: dates-helper(start-date: "Sep 2024", end-date: "Oct 2024"),
 )
 - Organized and coordinated a day-long event for promoting Free/Libre and Open Source Software (FLOSS) and related technologies at Vanier College.
-- Coordinated the sign-up process for the event.
-- Prepared a speak related to getting started with contributed to FLOSS projects.
-- Designed and printed a 3D printed SWAG for the event.
+- Gave a talk related to getting started with contributed to FLOSS projects.
+- Designed the 3D printed SWAG for the event.
 
 == Award & Certifications
 
@@ -189,9 +196,18 @@
 //   // url: "",
 //   date: "Apr 2024",
 // )
+ 
+#generic-two-by-two(
+  top-left: strong("Canadian Senior Mathematics Contests (2024)"),
+  top-right: "Jan 2025",
+  bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
+  bottom-right: "Montreal, Quebec, Canada"
+)
+#linebreak()
+_Ranked among the top 25% of all participants._
 
 #generic-two-by-two(
-  top-left: strong("Canadian Computing Competition"),
+  top-left: strong("Canadian Computing Competition (Senior Division, 2024)"),
   top-right: "Apr 2024",
   bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
   bottom-right: "Montreal, Quebec, Canada"
@@ -200,7 +216,7 @@
 _Ranked among the top 25% of all participants in the Senior Division._
 
 #generic-two-by-two(
-  top-left: strong("Canadian Computing Competition"),
+  top-left: strong("Canadian Computing Competition (Junior Division, 2023)"),
   top-right: "Apr 2023",
   bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
   bottom-right: "Montreal, Quebec, Canada"
