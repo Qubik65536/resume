@@ -33,7 +33,7 @@
 * #experience(company: "", dates: "", location: "", title: "")
 * #project(dates: "", name: "", role: "", url: "")
 * certificates(name: "", issuer: "", url: "", date: "")
-* #extracurriculars(activity: "", dates: "")
+* #volunteering(activity: "", dates: "")
 * There are also the following generic functions that don't apply any formatting
 * #generic-two-by-two(top-left: "", top-right: "", bottom-left: "", bottom-right: "")
 * #generic-one-by-two(left: "", right: "")
@@ -48,9 +48,10 @@
   degree: "Diploma of College Studies, Computer Science & Mathematics",
 )
 - Global R score: 32.5 | Honour Roll: Fall 2023, Winter 2024, Fall 2024
+- Activities and societies: Vanier Robotics Team (Member 2023-2025, Prog.-Comp. Sub-Captain 2024-2025), Teaching Assistant (Programming 1, Data Structures and Object Oriented Programming), Math and Science Tutor
 
 == Skills
-- *Programming Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
+- *Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
 - *Technologies*: Git, GitHub Actions, Ktor, Flask, Probot, SwiftUI, Quilt, Linux, NGINX
 - *Languages*: English (Native), Chinese (Native), French (Professional working proficiency)
 
@@ -79,7 +80,6 @@
 - Built and maintained the website used for hosting contents.
 - Created and maintained the content contribution guideline and other work procedures.
 - Communicated with high-quality FLOSS-related article authors and publishers to get translation permissions.
-- Led the translation team to ensure the quality of translated texts and establish a positive community environment.
 - Translated articles from English to Chinese.
 - Proofread other contributors' articles and translations.
 
@@ -99,6 +99,7 @@
 )
 - Organized and hosted the workshops for preparing the team members.
 - Prepared the practice problems and solutions.
+- Competed in the programming competition of the CRC TakTik 2025 competition and achieved 1st place in the Division 1 with the team.
 
 #experience(
   title: "Tutor, Math & Science",
@@ -133,7 +134,7 @@
 
 #project(
   name: "Typstify",
-  role: "Main Developer",
+  role: "Developer",
   dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
@@ -163,7 +164,7 @@
 
 #project(
   name: "RemoteMC",
-  role: "Main Developer",
+  role: "Developer",
   dates: dates-helper(start-date: "Mar 2022", end-date: "Nov 2023"),
   github: "iXORTech/RemoteMC-Core",
 )
@@ -171,22 +172,30 @@
 
 #project(
   name: "Sudoku Elves",
-  role: "Main Developer",
+  role: "Developer",
   dates: dates-helper(start-date: "Jan 2020", end-date: "Jan 2021"),
 )
 - Develop the iOS/iPadOS application, a Sudoku puzzle game, in Swift and SwiftUI.
 - Develop the algorithm for generating and solving Sudoku puzzles.
 - Maintain the application on the App Store.
 
-== Extracurricular Activities
+== Volunteering
 
-#extracurriculars(
+#volunteering(
   activity: "Event Organizer/Coordinator, Vanier FLOSS Day 24",
   dates: dates-helper(start-date: "Sep 2024", end-date: "Oct 2024"),
 )
 - Organized and coordinated a day-long event for promoting Free/Libre and Open Source Software (FLOSS) and related technologies at Vanier College.
 - Gave a talk related to getting started with contributed to FLOSS projects.
 - Designed the 3D printed SWAG for the event.
+
+#volunteering(
+  activity: "Member, Build & Programming Competition Subteams | Vanier Robotics Club/Team",
+  dates: dates-helper(start-date: "Sep 2023", end-date: "Present"),
+)
+Major Activities:
+- Contributed to the Arduino-based robot code development of the 2025 TakTik Robot.
+- Participated in the CRC TakTik 2025 competition, competed in the programming competition and helped the robot testing.
 
 == Award & Certifications
 
