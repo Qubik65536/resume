@@ -48,7 +48,7 @@
   degree: "Diploma of College Studies, Computer Science & Mathematics",
 )
 - Global R score: 32.5 | Honour Roll: Fall 2023, Winter 2024, Fall 2024
-- Activities and societies: Vanier Robotics Team (Member 2023-2025, Prog.-Comp. Sub-Captain 2024-2025), Teaching Assistant (Programming 1, Data Structures and Object Oriented Programming), Math and Science Tutor
+- Activities and societies: Vanier Robotics Team (2023-2025), Teaching Assistant (Programming 1, Data Structures and Object Oriented Programming)
 
 == Skills
 - *Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
@@ -56,17 +56,6 @@
 - *Languages*: English (Native), Chinese (Native), French (Professional working proficiency)
 
 == Experience
-
-#experience(
-  title: "Founder & Lead Software Developer",
-  location: "Remote Self-employed",
-  company: "iXOR Technology",
-  dates: dates-helper(start-date: "Mar 2022", end-date: "Present"),
-  homepage: "ixor.dev",
-  github: "iXORTech",
-)
-- Developed open-source applications in Kotlin, Python, Rust, and Swift.
-- Maintained and contributed to multiple open-source software projects.
 
 #experience(
   title: "Co-Founder & Translation Team Leader",
@@ -82,14 +71,6 @@
 - Communicated with high-quality FLOSS-related article authors and publishers to get translation permissions.
 - Translated articles from English to Chinese.
 - Proofread other contributors' articles and translations.
-
-#experience(
-  title: "Teaching Assistant, Data Structures and Object Oriented Programming",
-  location: "Montreal, Quebec, Canada",
-  company: "Vanier College",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
-)
-- Graded students' assignments and evaluations.
 
 #experience(
   title: "Sub-Captain, Programming Competition Subteam",
@@ -112,14 +93,6 @@
 - Designed creative questions for students to learn key concepts.
 
 #experience(
-  title: "Teaching Assistant, Programming 1",
-  location: "Montreal, Quebec, Canada",
-  company: "Vanier College",
-  dates: dates-helper(start-date: "Feb 2024", end-date: "May 2024"),
-)
-- Graded students' assignments and evaluations.
-
-#experience(
   title: "Community Support Team Member & Chatbot Developer",
   location: "Remote",
   company: "LittleSkinChina",
@@ -133,6 +106,17 @@
 == Projects
 
 #project(
+  name: "ungoogled-chromium-macos",
+  role: "Maintainer",
+  dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
+  github: "ungoogled-software/ungoogled-chromium-macos",
+)
+- Maintain the macOS packaging of the Ungoogled-Chromium browser, ensure the browser version is up-to-date.
+- Fix macOS-specific issues using Quilt patching system.
+- Maintain the shell scripts used for building and packaging the browser.
+- Maintain the GitHub Actions workflow for building and releasing new versions automatically.
+
+#project(
   name: "Typstify",
   role: "Developer",
   dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
@@ -140,17 +124,6 @@
 )
 - Develop the application, a Typst editor for iPadOS, using Swift, SwiftUI, and Rust, bridged by #link("https://github.com/chinedufn/swift-bridge")[chinedufn/swift-bridge].
 - Contribute to various open-source dependencies of the project.
-
-#project(
-  name: "ungoogled-chromium-macos",
-  role: "Maintainer",
-  dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
-  github: "ungoogled-software/ungoogled-chromium-macos",
-)
-- Maintain the macOS packaging of the Ungoogled-Chromium browser, a privacy-focused Chromium fork sans dependency on Google web services.
-- Ensure the browser is up-to-date with the Ungoogled-Chromium project and fix macOS-specific issues using Quilt patching system.
-- Maintain the shell scripts used for building and packaging the browser.
-- Maintain the GitHub Actions workflow for building and releasing new versions automatically.
 
 #project(
   name: "SlopeCraft",
@@ -169,15 +142,6 @@
   github: "iXORTech/RemoteMC-Core",
 )
 - Develop the software, a series of applications and plugins that act in group as a Minecraft server management tools, in Kotlin, Ktor, and Python.
-
-#project(
-  name: "Sudoku Elves",
-  role: "Developer",
-  dates: dates-helper(start-date: "Jan 2020", end-date: "Jan 2021"),
-)
-- Develop the iOS/iPadOS application, a Sudoku puzzle game, in Swift and SwiftUI.
-- Develop the algorithm for generating and solving Sudoku puzzles.
-- Maintain the application on the App Store.
 
 == Volunteering
 
@@ -223,19 +187,3 @@ _Ranked among the top 25% of all participants._
 )
 #linebreak()
 _Ranked among the top 25% of all participants in the Senior Division._
-
-#generic-two-by-two(
-  top-left: strong("Canadian Computing Competition (Junior Division, 2023)"),
-  top-right: "Apr 2023",
-  bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
-  bottom-right: "Montreal, Quebec, Canada"
-)
-#linebreak()
-_Ranked among the top 25% of all participants in the Junior Division._
-
-#generic-two-by-two(
-  top-left: strong("USA Computing Olympiad"),
-  top-right: "Mar 2022",
-  bottom-left: emph("Rank 1 among all pre-college participants in the Silver Division."),
-  bottom-right: "Montreal, Quebec, Canada"
-)
