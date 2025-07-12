@@ -41,6 +41,13 @@
 
 == Education
 
+// #edu(
+//   institution: "University of Waterloo",
+//   location: "Waterloo, Ontario, Canada",
+//   dates: dates-helper(start-date: "Sep 2025", end-date: "Apr 2030"),
+//   degree: "Bachelor of Software Engineering"
+// )
+
 #edu(
   institution: "Vanier College",
   location: "Montreal, Quebec, Canada",
@@ -65,7 +72,7 @@
   homepage: "vanierfloss.club",
   github: "Vanier-FLOSS-Club",
 )
-- Responsible for overseeing the entire club. Organizing necessary meetings, track projects progress, and collaborate with the college liaison with school-level matters. Make sure the actions taken in the club reinforce the club's mission.
+- Oversaw overall club operations, organized meetings, tracked project progress, and coordinated with the college liaison on school-related matters.
 
 #experience(
   title: "Tech Lead",
@@ -75,7 +82,8 @@
   homepage: "vanierfloss.club",
   github: "Vanier-FLOSS-Club",
 )
-- Lead club members for developing software used by the club (e.g. club website).
+- Built and maintained the software and infrastructure used by the club.
+- Led and mentored club members in developing software projects used by the club.
 
 // #experience(
 //   title: "Co-Founder & Translation Team Leader",
@@ -141,6 +149,8 @@
 )
 - Provided support to players and Minecraft server managers using services provided by LittleSkin.
 - Developed the internal utility chatbot, written in Python.
+
+#pagebreak()
 
 == Projects
 
