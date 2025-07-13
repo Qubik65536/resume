@@ -71,7 +71,7 @@
   homepage: "vanierfloss.club",
   github: "Vanier-FLOSS-Club",
 )
-- Oversaw overall club operations by organizing 10+ meetings, tracking progress across 5+ projects, and coordinating regularly with the college liaison on school-related matters.
+- Oversaw overall club operations by organizing meetings, tracking project progress, and coordinating regularly with the college liaison on school-related matters.
 - Organized annual day-long unconference events promoting Free/Libre and Open Source Software awareness and adoption, attracting 50+ attendees; delivered talks on how to contribute to FLOSS projects.
 - Built and maintained the software and infrastructure supporting the club's activities.
 - Led and mentored club members in developing software projects actively used by the club.
