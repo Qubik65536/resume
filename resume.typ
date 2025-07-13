@@ -121,7 +121,7 @@
   dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
-- Maintained macOS packaging of the Ungoogled-Chromium browser by tracking and packaging Chromium updates downstream, resulting in 100+ timely macOS releases delivered to over 1,000 users.
+- Maintained macOS packaging of the Ungoogled-Chromium browser by tracking and packaging Chromium updates downstream, resulting in 100+ timely macOS releases delivered to over 5,000 users.
 - Optimized GitHub Actions workflows to automate builds and releases, reducing CI build time by 40%.
 
 #project(
