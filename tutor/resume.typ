@@ -1,4 +1,4 @@
-#import "basic-typst-resume-template/src/lib.typ": *
+#import "../basic-typst-resume-template/src/lib.typ": *
 
 // Put your personal information here, replacing mine
 #let name = "Qian Qian"
@@ -60,21 +60,17 @@
 
 - *Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
 - *Technologies*: Git, GitHub Actions, Ktor, Flask, Probot, SwiftUI, Quilt, Linux, NGINX
+- *Languages*: English (Native), Chinese (Native), French (Professional working proficiency)
 
 == Experience
 
 #experience(
-  title: "Coordinator & Tech Lead",
-  location: "Remote",
-  company: "Vanier FLOSS Club",
-  dates: dates-helper(start-date: "Sep 2024", end-date: "Present"),
-  homepage: "vanierfloss.club",
-  github: "Vanier-FLOSS-Club",
+  title: "Tutor, Math and Science",
+  location: "Montreal, Quebec, Canada",
+  company: "Vanier College",
+  dates: dates-helper(start-date: "Feb 2024", end-date: "Present"),
 )
-- Oversaw overall club operations by organizing 10+ meetings, tracking progress across 5+ projects, and coordinating regularly with the college liaison on school-related matters.
-- Organized annual day-long unconference events promoting Free/Libre and Open Source Software awareness and adoption, attracting 50+ attendees; delivered talks on how to contribute to FLOSS projects.
-- Built and maintained the software and infrastructure supporting the club's activities.
-- Led and mentored club members in developing software projects actively used by the club.
+- Tutored 30+ fellow students in Math, Physics, and Java-based Computer Science courses through the school-run peer tutoring program, creating 50+ original practice problems to reinforce core concepts and promote critical thinking.
 
 #experience(
   title: "Teaching Assistant, Data Structures and Object Oriented Programming",
@@ -104,30 +100,36 @@
 )
 - Graded 4 assignments and evaluations throughout the semester, ensuring consistent and timely feedback.
 
-== Projects
+== Award & Certifications
 
-#project(
-  name: "Typstify",
-  role: "Developer",
-  dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
-  github: "iXORTech/Typstify",
+#generic-two-by-two(
+  top-left: strong("International Tutor Training Program Certification"),
+  top-right: "Feb 2025",
+  bottom-left: "Tutoring and Academic Success Centre, Vanier College",
+  bottom-right: "Montreal, Quebec, Canada"
 )
-- Developed the application, a Typst editor for iPadOS, using Swift, SwiftUI, and Rust bridged by chinedufn/swift-bridge.
-- Contributed to 3 open-source dependencies of the project.
+\ _Completed comprehensive training in effective tutoring techniques, learning strategies, and communication skills to enhance student learning outcomes._
+ 
+#generic-two-by-two(
+  top-left: strong("Canadian Senior Mathematics Contest (2024)"),
+  top-right: "Jan 2025",
+  bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
+  bottom-right: "Montreal, Quebec, Canada"
+)
+\ _Ranked among the top 25% of participants in the 2024 Canadian Senior Mathematics Contest._
 
-#project(
-  name: "ungoogled-chromium-macos",
-  role: "Maintainer",
-  dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
-  github: "ungoogled-software/ungoogled-chromium-macos",
+#generic-two-by-two(
+  top-left: strong("Canadian Computing Competition (Senior Division, 2024)"),
+  top-right: "Apr 2024",
+  bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
+  bottom-right: "Montreal, Quebec, Canada"
 )
-- Maintained macOS packaging of the Ungoogled-Chromium browser by tracking and packaging Chromium updates downstream, resulting in 100+ timely macOS releases delivered to over 1,000 users.
-- Optimized GitHub Actions workflows to automate builds and releases, reducing CI build time by 40%.
+\ _Ranked among the top 25% of participants in the 2024 Canadian Computing Competition Senior Division._
 
-#project(
-  name: "RemoteMC",
-  role: "Developer",
-  dates: dates-helper(start-date: "Mar 2022", end-date: "Nov 2023"),
-  github: "iXORTech/RemoteMC-Core",
+#generic-two-by-two(
+  top-left: strong("Canadian Computing Competition (Junior Division, 2023)"),
+  top-right: "Apr 2023",
+  bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
+  bottom-right: "Montreal, Quebec, Canada"
 )
-- Developed the software, a set of applications, chatbots, and plugins that act in group as a Minecraft server management tools, in Kotlin, Ktor, and Python.
+\ _Ranked among the top 25% of participants in the 2023 Canadian Computing Competition Junior Division._
