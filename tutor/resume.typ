@@ -1,13 +1,5 @@
 #import "../basic-typst-resume-template/src/lib.typ": *
-
-// Put your personal information here, replacing mine
-#let name = "Qian Qian"
-#let location = "Montreal, Quebec, Canada"
-#let email = "me@qubik.top"
-#let github = "Qubik65536"
-#let linkedin = "in/qianq"
-#let phone = "+1 (xxx) xxx-xxxx"
-#let personal-site = "qubik65536.top"
+#import "../info.typ": *
 
 #show: resume.with(
   author: name,
@@ -93,12 +85,13 @@
 - Achieved 1st place in Division 1 at CRC TakTik 2025 programming competition as part of the team.
 
 #experience(
-  title: "Teaching Assistant, Programming 1",
-  location: "Montreal, Quebec, Canada",
-  company: "Vanier College",
-  dates: dates-helper(start-date: "Feb 2024", end-date: "May 2024"),
+  title: "Community Support Team Member & Chatbot Developer",
+  location: "Remote",
+  company: "LittleSkin.cn",
+  dates: dates-helper(start-date: "Mar 2021", end-date: "Jul 2023"),
 )
-- Graded 4 assignments and evaluations throughout the semester, ensuring consistent and timely feedback.
+- Supported a community of 1,000+ users and Minecraft server administrators on the LittleSkin platform, one of China's largest Minecraft skin and authentication services.
+- Assisted in developing an internal utility chatbot in Python to streamline common support and moderation tasks.
 
 == Award & Certifications
 

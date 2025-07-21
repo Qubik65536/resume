@@ -1,5 +1,5 @@
-#import "basic-typst-resume-template/src/lib.typ": *
-#import "info.typ": *
+#import "../basic-typst-resume-template/src/lib.typ": *
+#import "../info.typ": *
 
 #show: resume.with(
   author: name,
@@ -11,7 +11,7 @@
   github: github,
   linkedin: linkedin,
   // phone: phone,
-  personal-site: personal-site,
+  // personal-site: personal-site,
   accent-color: "#56728B",
   font: "New Computer Modern",
   paper: "us-letter",
@@ -50,8 +50,9 @@
 
 == Skills
 
-- *Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
-- *Technologies*: Git, GitHub Actions, Ktor, Flask, Probot, SwiftUI, Quilt, Linux, NGINX
+// - *Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
+// - *Technologies*: Git, GitHub Actions, Ktor, Flask, Probot, SwiftUI, Quilt, Linux, NGINX
+- *Languages*: English (Native), Chinese (Native), French (Professional working proficiency)
 
 == Experience
 
@@ -67,6 +68,14 @@
 - Organized annual day-long unconference events promoting Free/Libre and Open Source Software awareness and adoption, attracting 50+ attendees; delivered talks on how to contribute to FLOSS projects.
 - Built and maintained the software and infrastructure supporting the club's activities.
 - Led and mentored club members in developing software projects actively used by the club.
+
+#experience(
+  title: "Tutor, Math and Science",
+  location: "Montreal, Quebec, Canada",
+  company: "Vanier College",
+  dates: dates-helper(start-date: "Feb 2024", end-date: "Present"),
+)
+- Tutored 30+ fellow students in Math, Physics, and Java-based Computer Science courses through the school-run peer tutoring program, creating 50+ original practice problems to reinforce core concepts and promote critical thinking.
 
 #experience(
   title: "Teaching Assistant, Data Structures and Object Oriented Programming",
@@ -116,11 +125,3 @@
 )
 - Maintained macOS packaging of the Ungoogled-Chromium browser by tracking and packaging Chromium updates downstream, resulting in 100+ timely macOS releases delivered to over 5,000 users.
 - Optimized GitHub Actions workflows to automate builds and releases, reducing CI build time by 40%.
-
-#project(
-  name: "RemoteMC",
-  role: "Developer",
-  dates: dates-helper(start-date: "Mar 2022", end-date: "Nov 2023"),
-  github: "iXORTech/RemoteMC-Core",
-)
-- Developed the software, a set of applications, chatbots, and plugins that act in group as a Minecraft server management tools, in Kotlin, Ktor, and Python.
