@@ -33,17 +33,17 @@
 
 == Education
 
-// #edu(
-//   institution: "University of Waterloo",
-//   location: "Waterloo, Ontario, Canada",
-//   dates: dates-helper(start-date: "Sep 2025", end-date: "Apr 2030"),
-//   degree: "Bachelor of Software Engineering"
-// )
+#edu(
+  institution: "University of Waterloo",
+  location: "Waterloo, Ontario, Canada",
+  dates: dates-helper(start-date: "2025", end-date: "2030"),
+  degree: "Bachelor of Software Engineering, Honours Software Engineering, Co-op"
+)
 
 #edu(
   institution: "Vanier College",
   location: "Montreal, Quebec, Canada",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2025"),
+  dates: dates-helper(start-date: "2023", end-date: "2025"),
   degree: "Diploma of College Studies, Computer Science & Mathematics",
 )
 - Global R score: 32.5 | Honour Roll: Fall 2023, Winter 2024, Fall 2024
@@ -118,11 +118,3 @@
   bottom-right: "Montreal, Quebec, Canada"
 )
 \ _Ranked among the top 25% of participants in the 2024 Canadian Computing Competition Senior Division._
-
-#generic-two-by-two(
-  top-left: strong("Canadian Computing Competition (Junior Division, 2023)"),
-  top-right: "Apr 2023",
-  bottom-left: "The Centre for Education in Mathematics and Computing, University of Waterloo",
-  bottom-right: "Montreal, Quebec, Canada"
-)
-\ _Ranked among the top 25% of participants in the 2023 Canadian Computing Competition Junior Division._

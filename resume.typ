@@ -33,17 +33,17 @@
 
 == Education
 
-// #edu(
-//   institution: "University of Waterloo",
-//   location: "Waterloo, Ontario, Canada",
-//   dates: dates-helper(start-date: "Sep 2025", end-date: "Apr 2030"),
-//   degree: "Bachelor of Software Engineering"
-// )
+#edu(
+  institution: "University of Waterloo",
+  location: "Waterloo, Ontario, Canada",
+  dates: dates-helper(start-date: "2025", end-date: "2030"),
+  degree: "Bachelor of Software Engineering, Honours Software Engineering, Co-op"
+)
 
 #edu(
   institution: "Vanier College",
   location: "Montreal, Quebec, Canada",
-  dates: dates-helper(start-date: "Aug 2023", end-date: "May 2025"),
+  dates: dates-helper(start-date: "2023", end-date: "2025"),
   degree: "Diploma of College Studies, Computer Science & Mathematics",
 )
 - Global R score: 32.5 | Honour Roll: Fall 2023, Winter 2024, Fall 2024
@@ -87,15 +87,6 @@
 )
 - Organized and led 10+ preparatory workshops for team members.
 - Achieved 1st place in Division 1 at CRC TakTik 2025 programming competition as part of the team.
-
-#experience(
-  title: "Community Support Team Member & Chatbot Developer",
-  location: "Remote",
-  company: "LittleSkin.cn",
-  dates: dates-helper(start-date: "Mar 2021", end-date: "Jul 2023"),
-)
-- Supported a community of 1,000+ users and Minecraft server administrators on the LittleSkin platform, one of China's largest Minecraft skin and authentication services.
-- Assisted in developing an internal utility chatbot in Python to streamline common support and moderation tasks.
 
 == Projects
 
