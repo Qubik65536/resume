@@ -1,5 +1,5 @@
 #let name = "Qian Qian"
-#let location = "Montreal, Quebec, Canada"
+#let location = "Waterloo, Ontario, Canada"
 #let email = "me@qubik.top"
 #let github = "Qubik65536"
 #let linkedin = "in/qianq"

@@ -60,7 +60,7 @@
   title: "Tutor, Math and Science",
   location: "Montreal, Quebec, Canada",
   company: "Vanier College",
-  dates: dates-helper(start-date: "Feb 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Feb 2024", end-date: "Jul 2025"),
 )
 - Tutored 30+ fellow students in Math, Physics, and Java-based Computer Science courses through the school-run peer tutoring program, creating 50+ original practice problems to reinforce core concepts and promote critical thinking.
 
