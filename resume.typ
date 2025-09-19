@@ -46,7 +46,7 @@
   dates: dates-helper(start-date: "2023", end-date: "2025"),
   degree: "Diploma of College Studies, Computer Science & Mathematics",
 )
-- Global R score: 32.5 | Honour Roll: Fall 2023, Winter 2024, Fall 2024, Winter 2025
+- Global R score: 32 | Honour Roll: Fall 2023, Winter 2024, Fall 2024, Winter 2025
 
 == Skills
 
