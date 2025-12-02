@@ -39,12 +39,12 @@
 == Experience
 
 #experience(
-  title: "Software Team Member",
+  title: "Software Developer",
   location: "Waterloo, Ontario, Canada",
-  company: "Waterloo Roketry",
+  company: "Waterloo Rocketry",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
 )
-- Built the ground station and data acquisition system infrastructure using Docker and Ansible to improve deployment efficiency and reliability.
+- Developed the Mission Control System (ground station and data acquisition system) infrastructure using Docker, Ansible, and Python to improve deployment efficiency and reliability.
 - Mentored less experienced team members on software development best practices and tools, fostering a collaborative learning environment.
 
 #experience(
