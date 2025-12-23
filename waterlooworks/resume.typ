@@ -6,7 +6,7 @@
   // All the lines below are optional.
   // For example, if you want to to hide your phone number:
   // feel free to comment those lines out and they will not show.
-  location: location,
+  // location: location,
   email: email,
   github: github,
   linkedin: linkedin,
@@ -33,8 +33,9 @@
 
 == Skills
 
-- *Languages*: Kotlin, Java, Python, Rust, Swift, Typst, LaTeX
-- *Technologies*: Git, GitHub Actions, Ktor, Flask, Probot, SwiftUI, Quilt, Linux, NGINX
+- *Languages*: Java, Python, C, Shell, Kotlin, Rust, Swift, Typst, LaTeX
+- *Technologies*: Git, GitHub Actions, Linux, NGINX, Docker, Ktor, Flask, Probot, SwiftUI, Quilt
+- *Soft Skills*: Agile Project Management, Team Leadership, Effective Communication
 
 == Experience
 
@@ -43,18 +44,19 @@
   location: "Waterloo, Ontario, Canada",
   company: "Waterloo Rocketry",
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
+  github: "Waterloo-Rocketry",
 )
-- Developed the Mission Control System (ground station and data acquisition system) infrastructure using Docker, Ansible, and Python to improve deployment efficiency and reliability.
-- Mentored less experienced team members on software development best practices and tools, fostering a collaborative learning environment.
+- Built Mission Control System infrastructure to enhance deployment efficiency and system reliability by implementing Docker containerization, Ansible configuration management, and Python-based functionalities.
+- Mentored less experienced team members to improve the team's overall software development capabilities by teaching software development best practices, tools, and collaborative workflows.
 
 #experience(
-  title: "Teaching Assistant, Data Structures and Object Oriented Programming",
+  title: "Teaching Assistant (Java), Data Structures and Object Oriented Programming",
   location: "Montreal, Quebec, Canada",
   company: "Vanier College",
   dates: dates-helper(start-date: "Jan 2025", end-date: "May 2025"),
 )
-- Supported 61 students across 2 sections by clarifying course concepts and assignment requirements.
-- Graded 6 assignments and evaluations throughout the semester, ensuring consistent and timely feedback.
+- Supported 61 students to improve subject comprehension by clarifying course concepts and assignment requirements.
+- Graded 6 assignments to evaluate student performance by providing timely and constructive feedback.
 
 #experience(
   title: "Sub-Captain, Programming Competition Subteam",
@@ -63,8 +65,8 @@
   dates: dates-helper(start-date: "Sep 2024", end-date: "May 2025"),
   github: "Vanier-Robotics",
 )
-- Organized and led 10+ Python and algorithm-focused preparatory workshops to prepare team members.
-- Achieved 1st place in Division 1 at CRC TakTik 2025 programming competition as part of the team.
+- Prepared the team by organizing and leading 10+ Python and algorithm-focused preparatory workshops.
+- Achieved 1st place in Division 1 at CRC TakTik 2025 programming competition with the team.
 
 #experience(
   title: "Tutor, Math and Science",
@@ -72,7 +74,7 @@
   company: "Vanier College",
   dates: dates-helper(start-date: "Feb 2024", end-date: "Jul 2025"),
 )
-- Tutored 30+ fellow students in Math, Physics, and Java-based Computer Science courses through the school-run peer tutoring program, creating 50+ original practice problems to reinforce core concepts and promote critical thinking.
+- Tutored 30+ fellow students in Math, Physics, and  Computer Science courses to improve their academic performance by reinforcing core concepts and promoting critical thinking with practice problems created based on individual student needs.
 
 == Projects
 
@@ -82,8 +84,8 @@
   dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
-- Developed the application, a Typst editor for iPadOS, using Swift, SwiftUI, and Rust bridged by chinedufn/swift-bridge.
-- Contributed to 3 open-source dependencies of the project.
+- Developed a native Typst editor for iPadOS to enable professional document creation on iPads by leveraging SwiftUI with Rust backend integrated via swift-bridge, a library facilitating interoperability between Swift and Rust.
+- Contributed to 3 upstream dependencies to strengthen both the app and the broader open-source ecosystem by submitting code patches and bug reports.
 
 #project(
   name: "ungoogled-chromium-macos",
@@ -91,8 +93,8 @@
   dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
-- Maintained macOS packaging of the Ungoogled-Chromium browser by tracking and packaging Chromium updates downstream, resulting in 100+ timely macOS releases delivered to over 5,000 users.
-- Optimized GitHub Actions workflows to automate builds and releases, reducing CI build time by 40%.
+- Delivered 100+ releases to 5000+ users to provide a privacy-focused browsing experience on macOS by tracking upstream updates and maintaining build scripts and patches.
+- Reduced the CI build time by 40% to accelerate release cycles and save resources by optimizing GitHub Actions workflows.
 
 == Education
 
