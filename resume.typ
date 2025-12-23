@@ -13,7 +13,7 @@
   // phone: phone,
   personal-site: personal-site,
   accent-color: "#56728B",
-  font: "New Computer Modern",
+  font: "IBM Plex Sans",
   paper: "us-letter",
 )
 
@@ -50,8 +50,7 @@
 == Skills
 
 - *Languages*: Java, Python, C, Shell, Kotlin, Rust, Swift, Typst, LaTeX
-- *Technologies*: Git, GitHub Actions, Linux, NGINX, Docker, Ktor, Flask, Probot, SwiftUI, Quilt
-- *Soft Skills*: Agile Project Management, Team Leadership, Effective Communication
+- *Tech/Tools*: Git, GitHub Actions, Linux, NGINX, Docker, Ktor, Flask, Probot, SwiftUI, Quilt
 
 == Experience
 
@@ -90,13 +89,13 @@
   company: "Vanier College",
   dates: dates-helper(start-date: "Feb 2024", end-date: "Jul 2025"),
 )
-- Tutored 30+ fellow students in Math, Physics, and  Computer Science courses to improve their academic performance by reinforcing core concepts and promoting critical thinking with practice problems created based on individual student needs.
+- Tutored 30+ students in Math, Physics, and Java-based Computer Science courses to improve academic performance by reinforcing core concepts and promoting critical thinking with practice problems tailored to individual needs.
 
 == Projects
 
 #project(
   name: "Typstify",
-  role: "Developer",
+  skills: "Swift, SwiftUI, Rust",
   dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
@@ -110,7 +109,7 @@
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
 - Delivered 100+ releases to 5000+ users to provide a privacy-focused browsing experience on macOS by tracking upstream updates and maintaining build scripts and patches.
-- Reduced the CI build time by 40% to accelerate release cycles and save resources by optimizing GitHub Actions workflows.
+- Reduced the CI build time by 40% to accelerate release cycles by optimizing GitHub Actions workflows.
 
 == Additional Information
 
