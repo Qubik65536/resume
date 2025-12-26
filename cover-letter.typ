@@ -13,7 +13,7 @@
   ),
   recipient: (
     start-title: [Dear Hiring Manager,],
-    cl-title: none,
+    cl-title: [Application for \[POSITION NAME\] Position],
     date: [],
     department: [Hiring Manager],
     institution: [\[COMPANY NAME\]],
@@ -27,6 +27,5 @@
 )
 
 #set par(justify: true, first-line-indent: 2em)
-#set text(weight: "regular", size: 12pt)
 
 #lorem(400)
