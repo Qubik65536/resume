@@ -1,3 +1,6 @@
 [submodule "basic-typst-resume-template"]
 	path = basic-typst-resume-template
 	url = https://github.com/Qubik65536/my-typst-resume-template.git
+[submodule "modernpro-coverletter"]
+	path = modernpro-coverletter
+	url = https://github.com/Qubik65536/my-typst-coverletter-template.git
