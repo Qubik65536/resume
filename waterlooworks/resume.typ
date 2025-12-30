@@ -103,14 +103,7 @@
   institution: "University of Waterloo",
   location: "Waterloo, Ontario, Canada",
   dates: dates-helper(start-date: "2025", end-date: "2030"),
-  degree: "Candidate of Bachelor of Software Engineering, Honours Software Engineering, Co-op",
-)
-
-#edu(
-  institution: "Vanier College",
-  location: "Montreal, Quebec, Canada",
-  dates: dates-helper(start-date: "2023", end-date: "2025"),
-  degree: "Diploma of College Studies, Computer Science & Mathematics",
+  degree: "Bachelor of Software Engineering, Honours Software Engineering, Co-op",
 )
 
 == Additional Information
