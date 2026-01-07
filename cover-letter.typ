@@ -5,11 +5,10 @@
   font-type: "IBM Plex Serif",
   name: [Qian Qian],
   contacts: (
-    (text: [#fa-icon("phone-intercom") 123-456-789], link: "tel:123-456-789"),
-    (text: [#fa-icon("envelope-open-text") example\@example.com], link: "mailto:example@example.com"),
-    (text: [#fa-icon("github") github], link: "https://github.com/"),
-    (text: [#fa-icon("linkedin") linkedin], link: "https://linkedin.com/"),
-    (text: [#fa-icon("link") example.com], link: "https://www.example.com"),
+    (text: [#fa-icon("envelope-open-text") me\@qubik.top], link: "mailto:me@qubik.top"),
+    (text: [#fa-icon("github") GitHub], link: "https://github.com/Qubik65536/"),
+    (text: [#fa-icon("linkedin") LinkedIn], link: "https://linkedin.com/in/qianq/"),
+    (text: [#fa-icon("link") qubik65536.top], link: "https://www.qubik65536.top"),
   ),
   recipient: (
     start-title: [Dear Hiring Manager,],
