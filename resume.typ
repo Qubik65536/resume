@@ -38,13 +38,13 @@
 #edu(
   institution: "University of Waterloo",
   location: "Waterloo, Ontario, Canada",
-  dates: dates-helper(start-date: "2025", end-date: "2030"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "May 2030"),
   degree: "Bachelor of Software Engineering, Honours Software Engineering, Co-op",
 )
 
 == Skills
 
-- *Languages*: Java, Python, C, Shell, Kotlin, Rust, Swift, Typst, LaTeX
+- *Languages*: Java, Python, Shell, C, C++, Kotlin, Rust, Swift, Typst, LaTeX
 - *Tech/Tools*: Git, GitHub Actions, Linux, NGINX, Docker, Ktor, Flask, Probot, SwiftUI, Quilt
 
 == Experience
@@ -78,15 +78,14 @@
 - Prepared the team by organizing and leading 10+ Python and algorithm-focused preparatory workshops.
 - Achieved 1st place in Division 1 at CRC TakTik 2025 programming competition with the team.
 
-#experience(
-  title: "Tutor, Math and Science",
-  location: "Montreal, Quebec, Canada",
-  company: "Vanier College",
-  dates: dates-helper(start-date: "Feb 2024", end-date: "Jul 2025"),
-)
-- Tutored 30+ students in Math, Physics, and Java-based Computer Science courses to improve academic performance by reinforcing core concepts and promoting critical thinking with practice problems tailored to individual needs.
-
 == Projects
+
+#project(
+  name: "QubeC",
+  skills: "Rust, C++",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "Present"),
+)
+- Implemented a bytecode compiler and virtual machine for a C-like programming language.
 
 #project(
   name: "Typstify",
@@ -105,6 +104,13 @@
 )
 - Delivered 100+ releases to 5000+ users to provide a privacy-focused browsing experience on macOS by tracking upstream updates and maintaining build scripts and patches.
 - Reduced the CI build time by 40% to accelerate release cycles by optimizing GitHub Actions workflows.
+
+#project(
+  name: "CalcLox",
+  skills: "Java",
+  dates: dates-helper(start-date: "Jan 2025", end-date: "May 2025"),
+)
+- Designed and implemented the interpreter of a custom scripting language based on Lox for a programmable calculator.
 
 == Additional Information
 
