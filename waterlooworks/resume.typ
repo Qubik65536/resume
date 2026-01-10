@@ -36,7 +36,7 @@
 == Skills
 
 - *Languages*: Java, Python, Shell, C, C++, Kotlin, Rust, Swift, Typst, LaTeX
-- *Tech/Tools*: Git, GitHub Actions, Linux, NGINX, Docker, Ktor, Flask, Probot, SwiftUI, Quilt
+- *Tech/Tools*: Git, GitHub Actions, Linux, Unit Testing, JUnit, PyTest, NGINX, Docker, Ktor, Flask, SwiftUI, Quilt
 
 == Experience
 
@@ -47,8 +47,9 @@
   dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
   github: "Waterloo-Rocketry",
 )
-- Built Mission Control System infrastructure to enhance deployment efficiency and system reliability by implementing Docker containerization, Ansible configuration management, and Python-based functionalities.
-- Mentored less experienced team members to improve the team's overall software development capabilities by teaching software development best practices, tools, and collaborative workflows.
+- Built Mission Control System infrastructure to enhance deployment efficiency and system reliability by implementing Docker containerization and Ansible configuration management.
+- Implement Python-based data aquisition and processing systems and PyTest-based unit tests.
+- Mentored less experienced team members to improve the team's overall software development capabilities by teaching software development best practices, tools, and collaborative workflows (e.g. git, unit testing, pull request workflow, etc.)
 
 #experience(
   title: "Teaching Assistant (Java), Data Structures and Object Oriented Programming",
@@ -102,6 +103,7 @@
   dates: dates-helper(start-date: "Jan 2025", end-date: "May 2025"),
 )
 - Designed and implemented the interpreter of a custom scripting language based on Lox for a programmable calculator.
+- Implemented unit testing using JUnit to ensure the correctness of the interpreter.
 
 == Education
 
