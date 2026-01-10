@@ -1,0 +1,30 @@
+name: Trigger Resume Build
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.typ'
+      - '.github/workflows/trigger-resume-build.yml'
+  workflow_dispatch:
+
+jobs:
+  trigger-private-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger workflow in private repository
+        run: |
+          curl -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.PRIVATE_REPO_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ secrets.PRIVATE_REPO }}/actions/workflows/build-resumes.yml/dispatches \
+            -d '{"ref":"main"}'
+
+      - name: Confirm trigger
+        run: |
+          echo "Successfully triggered resume build in ${{ secrets.PRIVATE_REPO }}"
+          echo "Check the Actions tab in your private repository to monitor progress"
