@@ -1,6 +1,8 @@
 #import "../basic-typst-resume-template/src/lib.typ": *
 #import "../info.typ": *
 
+#fa-use-pro()
+
 #show: resume.with(
   author: name,
   // All the lines below are optional.
