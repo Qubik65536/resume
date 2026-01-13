@@ -46,7 +46,7 @@
   title: "Software Developer",
   location: "Waterloo, Ontario, Canada",
   company: "Waterloo Rocketry",
-  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
   github: "Waterloo-Rocketry",
 )
 - Built Mission Control System infrastructure to enhance deployment efficiency and system reliability by implementing Docker containerization and Ansible configuration management.
@@ -57,7 +57,7 @@
   title: "Teaching Assistant (Java), Data Structures and Object Oriented Programming",
   location: "Montreal, Quebec, Canada",
   company: "Vanier College",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "May 2025"),
+  dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
 )
 - Supported 61 students to improve subject comprehension by clarifying course concepts and assignment requirements.
 - Graded 6 assignments to evaluate student performance by providing timely and constructive feedback.
@@ -66,7 +66,7 @@
   title: "Sub-Captain, Programming Competition Subteam",
   location: "Montreal, Quebec, Canada",
   company: "Vanier Robotics Team",
-  dates: dates-helper(start-date: "Sep 2024", end-date: "May 2025"),
+  dates: dates-helper(start-date: "September 2024", end-date: "May 2025"),
   github: "Vanier-Robotics",
 )
 - Prepared the team by organizing and leading 10+ Python and algorithm-focused preparatory workshops.
@@ -77,14 +77,14 @@
 #project(
   name: "QubeC",
   skills: "Rust, C++",
-  dates: dates-helper(start-date: "Aug 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "August 2025", end-date: "Present"),
 )
 - Implemented a bytecode compiler and virtual machine for a C-like programming language.
 
 #project(
   name: "Typstify",
   skills: "Swift, SwiftUI, Rust",
-  dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "July 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
 - Developed a native Typst editor for iPadOS to enable professional document creation on iPads by leveraging SwiftUI with Rust backend integrated via swift-bridge, a library facilitating interoperability between Swift and Rust.
@@ -93,7 +93,7 @@
 #project(
   name: "ungoogled-chromium-macos",
   role: "Maintainer",
-  dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
+  dates: dates-helper(start-date: "November 2023", end-date: "Present"),
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
 - Delivered 100+ releases to 5000+ users to provide a privacy-focused browsing experience on macOS by tracking upstream updates and maintaining build scripts and patches.
@@ -102,7 +102,7 @@
 #project(
   name: "CalcLox",
   skills: "Java",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "May 2025"),
+  dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
 )
 - Designed and implemented the interpreter of a custom scripting language based on Lox for a programmable calculator.
 - Implemented unit testing using JUnit to ensure the correctness of the interpreter.
@@ -112,7 +112,7 @@
 #edu(
   institution: "University of Waterloo",
   location: "Waterloo, Ontario, Canada",
-  dates: dates-helper(start-date: "Sep 2025", end-date: "May 2030"),
+  dates: dates-helper(start-date: "September 2025", end-date: "May 2030"),
   degree: "Candidate for Bachelor of Software Engineering, Honours Software Engineering, Co-op",
 )
 
