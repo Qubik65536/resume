@@ -46,7 +46,7 @@
   title: "Software Developer",
   location: "Waterloo, Ontario, Canada",
   company: "Waterloo Rocketry",
-  dates: dates-helper(start-date: "Sept 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
   github: "Waterloo-Rocketry",
 )
 - Built Mission Control System infrastructure to enhance deployment efficiency and system reliability by implementing Docker containerization and Ansible configuration management.
@@ -66,7 +66,7 @@
   title: "Sub-Captain, Programming Competition Subteam",
   location: "Montreal, Quebec, Canada",
   company: "Vanier Robotics Team",
-  dates: dates-helper(start-date: "Sept 2024", end-date: "May 2025"),
+  dates: dates-helper(start-date: "Sep 2024", end-date: "May 2025"),
   github: "Vanier-Robotics",
 )
 - Prepared the team by organizing and leading 10+ Python and algorithm-focused preparatory workshops.
@@ -84,7 +84,7 @@
 #project(
   name: "Typstify",
   skills: "Swift, SwiftUI, Rust",
-  dates: dates-helper(start-date: "July 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
 - Developed a native Typst editor for iPadOS to enable professional document creation on iPads by leveraging SwiftUI with Rust backend integrated via swift-bridge, a library facilitating interoperability between Swift and Rust.
@@ -112,7 +112,7 @@
 #edu(
   institution: "University of Waterloo",
   location: "Waterloo, Ontario, Canada",
-  dates: dates-helper(start-date: "Sept 2025", end-date: "May 2030"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "May 2030"),
   degree: "Candidate for Bachelor of Software Engineering, Honours Software Engineering, Co-op",
 )
 
