@@ -116,6 +116,14 @@
 - Designed and implemented the interpreter of a custom scripting language based on Lox for a programmable calculator.
 - Implemented unit testing using JUnit to ensure the correctness of the interpreter.
 
+// #project(
+//   name: "RemoteMC",
+//   skills: "Kotlin, Ktor, Python, Flask",
+//   dates: dates-helper(start-date: "March 2022", end-date: "January 2024"),
+//   github: "iXORTech/RemoteMC-Core",
+// )
+// - Designed the RESTful API and implemented Minecraft plugin, chatbot, and central processing server software to enable remote Minecraft server management and chat interaction via messaging apps.
+
 == Additional Information
 
 - *Honour and Awards*: Winner of Hack the North 2025 QNX Software Challenge, Canadian Senior Mathematics Contest Distinction (2024), 2 x Canadian Computing Competition Distinction (2023, 2024)
