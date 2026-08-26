@@ -52,34 +52,25 @@
 == Experience
 
 #experience(
-  title: "Software Developer",
+  title: "Software Developer & Software Development Co-Lead",
   location: "Waterloo, Ontario, Canada",
   company: "Waterloo Rocketry",
   dates: dates-helper(start-date: "September 2025", end-date: "Present"),
   github: "Waterloo-Rocketry",
 )
-- Built Mission Control System infrastructure to enhance deployment efficiency and system reliability by implementing Docker containerization and Ansible configuration management.
-- Implement Python-based data aquisition and processing systems and PyTest-based unit tests.
-- Mentored less experienced team members to improve the team's overall software development capabilities by teaching software development best practices, tools, and collaborative workflows (e.g. git, unit testing, pull request workflow, etc.)
+- Built Mission Control deployment infrastructure to ensure consistent and reproducible software environments using Docker containerization and Ansible configuration management.
+- Developed Python-based data acquisition and processing systems to improve reliability of Mission Control telemetry workflows, supported by PyTest unit testing.
+- Assembled and tested ground-side electrical and sensor systems to support reliable launch-pad operations during integration and pre-launch testing.
+- Mentor developers to improve team-wide engineering practices through development standards, Git workflows, unit testing, pull-request reviews, and collaborative debugging.
 
 #experience(
-  title: "Teaching Assistant (Java), Data Structures and Object Oriented Programming",
+  title: "Software Engineering Intern, Build and Automation",
   location: "Montreal, Quebec, Canada",
-  company: "Vanier College",
-  dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
+  company: "Maxon",
+  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
 )
-- Supported 61 students to improve subject comprehension by clarifying course concepts and assignment requirements.
-- Graded 6 assignments to evaluate student performance by providing timely and constructive feedback.
-
-#experience(
-  title: "Sub-Captain, Programming Competition Subteam",
-  location: "Montreal, Quebec, Canada",
-  company: "Vanier Robotics Team",
-  dates: dates-helper(start-date: "September 2024", end-date: "May 2025"),
-  github: "Vanier-Robotics",
-)
-- Prepared the team by organizing and leading 10+ Python and algorithm-focused preparatory workshops.
-- Achieved 1st place in Division 1 at CRC TakTik 2025 programming competition with the team.
+- Built a Redshift rendering performance-monitoring system to identify regressions across standard rendering unit tests using Python, Grafana, and Loki for data processing, aggregation, and visualization.
+- Automated ArchVis changelog generation and build notifications to improve QA visibility using Python and GitLab and Jira APIs.
 
 == Projects
 
