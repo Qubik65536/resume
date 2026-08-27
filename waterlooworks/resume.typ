@@ -37,13 +37,13 @@
 
 == Skills
 
-- *Languages*: Java, Python, Shell, C, C++, Kotlin, Rust, Swift, Typst, LaTeX
+- *Languages*: Java, Kotlin, Python, Rust, C, C++, Shell, Swift, Go, Typst, LaTeX
 - *Tech/Tools*: Git, GitHub Actions, Linux, Unit Testing, JUnit, PyTest, NGINX, Docker, Ktor, Flask, SwiftUI, Quilt
 
 == Experience
 
 #experience(
-  title: "Software Developer & Software Development Co-Lead",
+  title: "Software Developer & Software Subsystem Co-Lead",
   location: "Waterloo, Ontario, Canada",
   company: "Waterloo Rocketry",
   dates: dates-helper(start-date: "September 2025", end-date: "Present"),
@@ -67,10 +67,11 @@
 
 #project(
   name: "QubeC",
-  skills: "Rust, C++",
+  skills: "Rust, Zig, C3, C++, Go",
   dates: dates-helper(start-date: "August 2025", end-date: "Present"),
 )
-- Implemented a bytecode compiler and virtual machine for a C-like programming language.
+- Built a bytecode compiler and stack-based virtual machine for a custom C-like programming language.
+- Explored multiple programming languages through compiler development and smaller experimental projects to compare language features, tooling, ergonomics, and performance characteristics.
 
 #project(
   name: "Typstify",
@@ -78,25 +79,26 @@
   dates: dates-helper(start-date: "July 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
-- Developed a native Typst editor for iPadOS to enable professional document creation on iPads by leveraging SwiftUI with Rust backend integrated via swift-bridge, a library facilitating interoperability between Swift and Rust.
-- Contributed to 3 upstream dependencies to strengthen both the app and the broader open-source ecosystem by submitting code patches and bug reports.
+- Developed a native Typst editor for iPadOS to support document authoring and preview workflows using SwiftUI with a Rust-based Typst backend, bridged via swift-bridge for cross-language interoperability.
+- Contributed patches to 3 upstream dependencies to expand functionality and resolve existing issues.
 
 #project(
   name: "ungoogled-chromium-macos",
   role: "Maintainer",
+  skills: "Shell, Python, Build Systems",
   dates: dates-helper(start-date: "November 2023", end-date: "Present"),
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
-- Delivered 100+ releases to 5000+ users to provide a privacy-focused browsing experience on macOS by tracking upstream updates and maintaining build scripts and patches.
-- Reduced the CI build time by 40% to accelerate release cycles by optimizing GitHub Actions workflows.
+- Maintained the macOS distribution of ungoogled-chromium, a privacy-focused browser, delivering 100+ releases to 5,000+ users through upstream tracking, build-script maintenance, and downstream patch management.
+- Reduced CI build time by 40% by optimizing GitHub Actions workflows to accelerate build time and release cycles.
 
 #project(
   name: "CalcLox",
   skills: "Java",
   dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
 )
-- Designed and implemented the interpreter of a custom scripting language based on Lox for a programmable calculator.
-- Implemented unit testing using JUnit to ensure the correctness of the interpreter.
+- Designed and implemented a Lox-based scripting language and its interpreter for a programmable calculator.
+- Built JUnit unit tests to validate language semantics and interpreter correctness across core calculator workflows.
 
 // #project(
 //   name: "RemoteMC",
@@ -104,7 +106,8 @@
 //   dates: dates-helper(start-date: "March 2022", end-date: "January 2024"),
 //   github: "iXORTech/RemoteMC-Core",
 // )
-// - Designed the RESTful API and implemented Minecraft plugin, chatbot, and central processing server software to enable remote Minecraft server management and chat interaction via messaging apps.
+// - Designed the RESTful API and overall architecture for a remote Minecraft server management system with Minecraft plugin, messaging chatbot, and central processing server.
+// - Developed Kotlin-Ktor and Python-Flask based components to enable remote Minecraft server management and chat interaction via messaging apps.
 
 == Education
 
