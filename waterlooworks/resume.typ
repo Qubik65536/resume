@@ -96,6 +96,7 @@
   name: "CalcLox",
   skills: "Java",
   dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
+  github: "QubeC-Lang/calclox"
 )
 - Designed and implemented a Lox-based scripting language and its interpreter for a programmable calculator.
 - Built JUnit unit tests to validate language semantics and interpreter correctness across core calculator workflows.
