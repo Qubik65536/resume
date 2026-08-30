@@ -89,7 +89,7 @@
   dates: dates-helper(start-date: "November 2023", end-date: "Present"),
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
-- Maintained the macOS distribution of ungoogled-chromium, a privacy-focused browser, delivering 100+ releases to 5,000+ users through upstream tracking, build-script maintenance, and downstream patch management.
+- Maintained the macOS distribution of ungoogled-chromium, a privacy-focused browser, delivering 100+ releases to 100,000+ users through upstream tracking, build-script maintenance, and downstream patch management.
 - Reduced CI build time by 40% by optimizing GitHub Actions workflows to accelerate build time and release cycles.
 
 #project(
