@@ -46,37 +46,45 @@
   title: "Software Developer & Software Subsystem Co-Lead",
   location: "Waterloo, Ontario, Canada",
   company: "Waterloo Rocketry",
-  dates: dates-helper(start-date: "September 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "Present"),
   github: "Waterloo-Rocketry",
 )
-- Built Mission Control deployment infrastructure to ensure consistent and reproducible software environments using Docker containerization and Ansible configuration management.
-- Developed Python-based data acquisition and processing systems to improve reliability of Mission Control telemetry workflows, supported by PyTest unit testing.
-- Assembled and tested ground-side electrical and sensor systems to support reliable launch-pad operations during integration and pre-launch testing.
-- Mentor developers to improve team-wide engineering practices through development standards, Git workflows, unit testing, pull-request reviews, and collaborative debugging.
+- Developed Mission Control software supporting the *world's highest-altitude amateur liquid rocket launch*.
+- Developed Python-based data acquisition and processing systems with PyTest coverage for reliable Mission Control telemetry and built Docker/Ansible deployment infrastructure for consistent, reproducible environments.
+- Assembled and tested ground-side electrical and sensor systems and served as a Mission Control data acquisition (DAQ) operator, supporting launch-pad operations during integration and pre-launch testing.
+- Lead a team of \~20 developers in designing and developing Mission Control and ground support systems, mentoring developers in engineering practices including design reviews, unit testing, code reviews, and collaborative debugging.
 
 #experience(
   title: "Software Engineering Intern, Build and Automation",
   location: "Montreal, Quebec, Canada",
   company: "Maxon",
-  dates: dates-helper(start-date: "May 2026", end-date: "August 2026"),
+  dates: dates-helper(start-date: "May 2026", end-date: "Aug 2026"),
 )
 - Built a Redshift rendering performance-monitoring system to identify regressions across standard rendering unit tests using Python, Grafana, and Loki for data processing, aggregation, and visualization.
-- Automated ArchVis changelog generation and build notifications to improve QA visibility using Python and GitLab and Jira APIs.
+- Automated ArchVis changelog generation and build notifications using Python and the GitLab and Jira APIs, giving QA visibility into resolved issues to guide targeted testing.
 
 == Projects
 
 #project(
+  name: "Bitarium",
+  skills: "Rust, Zig, OCaml, RISC-V",
+  dates: dates-helper(start-date: "Oct 2026", end-date: "Present"),
+)
+- Built a modular computer emulator with separate CPU, memory, and device subsystems, using Rust for execution, Zig for memory and devices, and OCaml for assembly tools.
+- Integrated Rust and Zig components and validated CPU behavior against an independent OCaml reference model.
+
+#project(
   name: "QubeC",
-  skills: "Rust, Zig, C3, C++, Go",
-  dates: dates-helper(start-date: "August 2025", end-date: "Present"),
+  skills: "Rust, Zig, Kotlin, C, C++, Go",
+  dates: dates-helper(start-date: "Aug 2025", end-date: "Present"),
 )
 - Built a bytecode compiler and stack-based virtual machine for a custom C-like programming language.
-- Explored multiple programming languages through compiler development and smaller experimental projects to compare language features, tooling, ergonomics, and performance characteristics.
+- Developed experimental projects in multiple languages to explore language features and compare syntax, tooling, and programming paradigms.
 
 #project(
   name: "Typstify",
   skills: "Swift, SwiftUI, Rust",
-  dates: dates-helper(start-date: "July 2024", end-date: "Present"),
+  dates: dates-helper(start-date: "Jul 2024", end-date: "Present"),
   github: "iXORTech/Typstify",
 )
 - Developed a native Typst editor for iPadOS to support document authoring and preview workflows using SwiftUI with a Rust-based Typst backend, bridged via swift-bridge for cross-language interoperability.
@@ -86,7 +94,7 @@
   name: "ungoogled-chromium-macos",
   role: "Maintainer",
   skills: "Shell, Python, Build Systems",
-  dates: dates-helper(start-date: "November 2023", end-date: "Present"),
+  dates: dates-helper(start-date: "Nov 2023", end-date: "Present"),
   github: "ungoogled-software/ungoogled-chromium-macos",
 )
 - Maintained the macOS distribution of ungoogled-chromium, a privacy-focused browser, delivering 100+ releases to 100,000+ users through upstream tracking, build-script maintenance, and downstream patch management.
@@ -95,7 +103,7 @@
 #project(
   name: "CalcLox",
   skills: "Java",
-  dates: dates-helper(start-date: "January 2025", end-date: "May 2025"),
+  dates: dates-helper(start-date: "Jan 2025", end-date: "May 2025"),
   github: "QubeC-Lang/calclox"
 )
 - Designed and implemented a Lox-based scripting language and its interpreter for a programmable calculator.
@@ -104,7 +112,7 @@
 // #project(
 //   name: "RemoteMC",
 //   skills: "Kotlin, Ktor, Python, Flask",
-//   dates: dates-helper(start-date: "March 2022", end-date: "January 2024"),
+//   dates: dates-helper(start-date: "Mar 2022", end-date: "Jan 2024"),
 //   github: "iXORTech/RemoteMC-Core",
 // )
 // - Designed the RESTful API and overall architecture for a remote Minecraft server management system with Minecraft plugin, messaging chatbot, and central processing server.
@@ -115,11 +123,11 @@
 #edu(
   institution: "University of Waterloo",
   location: "Waterloo, Ontario, Canada",
-  dates: dates-helper(start-date: "September 2025", end-date: "May 2030"),
+  dates: dates-helper(start-date: "Sep 2025", end-date: "May 2030"),
   degree: "Candidate for Bachelor of Software Engineering, Honours Software Engineering, Co-op",
 )
 
-== Additional Information
-
-- *Honour and Awards*: Winner of Hack the North 2025 QNX Software Challenge, Canadian Senior Mathematics Contest Distinction (2024), 2 x Canadian Computing Competition Distinction (2023, 2024)
-- *Activities*: Programming Competition Problem Setter at CRC Robotics
+// == Additional Information
+//
+// - *Honour and Awards*: Winner of Hack the North 2025 QNX Software Challenge, Canadian Senior Mathematics Contest Distinction (2024), 2 x Canadian Computing Competition Distinction (2023, 2024)
+// - *Activities*: Programming Competition Problem Setter at CRC Robotics
